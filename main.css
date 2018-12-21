@@ -1,0 +1,9 @@
+.colored {
+    margin-top: 3px !important;
+    border-radius: 5px;
+    padding: 0 3px;
+}
+
+.red {
+    background: red;
+}

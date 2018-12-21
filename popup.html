@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        select { width: 100% }
+        button {
+            width: 100%;
+            border: 1px solid black;
+            border-radius: 0;
+            margin-bottom: 5px;
+        }
+        button:disabled {
+            border: 1px solid grey;
+            color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <label>Choose Tag:</label>
+    <select id="selectTag">
+        <option value="new">Create New</option>
+    </select>
+    <hr/>
+    <label>Tag</label>
+    <input id="tag"/>
+    <label>Color</label>
+    <input id="color"/>
+    <hr/>
+    <button id="save">Save</button>
+    <button id="update">Update</button>
+    <button id="delete">Delete</button>
+    <script src="popup.js"></script>
+</body>
+
+</html>
